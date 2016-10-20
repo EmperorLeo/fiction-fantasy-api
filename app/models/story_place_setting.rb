@@ -1,0 +1,2 @@
+class StoryPlaceSetting < ApplicationRecord
+end

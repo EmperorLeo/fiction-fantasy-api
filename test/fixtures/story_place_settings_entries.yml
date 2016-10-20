@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story_template: one
+  story_place_settings: one
+
+two:
+  story_template: two
+  story_place_settings: two

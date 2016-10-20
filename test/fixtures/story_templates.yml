@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  author: one
+  narration: 1
+  story_time_setting: one
+  story_place_setting: one
+  main_idea: MyText
+  intro_desc: MyText
+  rising_action_desc: MyText
+  climax_desc: MyText
+  conclusion_desc: MyText
+  world_building: MyText
+  stage: 1
+  prequel: one
+  sequel: one
+  author_video_url: MyString
+  book_cover_url: MyString
+  genre: one
+
+two:
+  author: two
+  narration: 1
+  story_time_setting: two
+  story_place_setting: two
+  main_idea: MyText
+  intro_desc: MyText
+  rising_action_desc: MyText
+  climax_desc: MyText
+  conclusion_desc: MyText
+  world_building: MyText
+  stage: 1
+  prequel: two
+  sequel: two
+  author_video_url: MyString
+  book_cover_url: MyString
+  genre: two

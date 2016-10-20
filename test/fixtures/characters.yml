@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  story_template: one
+  full_name: MyString
+  nickname: MyString
+  background_info: MyText
+  character_type: 1
+  character_archetype: one
+  hair_color: MyString
+  eye_color: MyString
+  species: MyString
+  planet: MyString
+  nationality: MyString
+  ancestry: MyString
+  occupation: MyString
+  orientation: 1
+  gender: MyString
+  personality_traits: 1
+
+two:
+  story_template: two
+  full_name: MyString
+  nickname: MyString
+  background_info: MyText
+  character_type: 1
+  character_archetype: two
+  hair_color: MyString
+  eye_color: MyString
+  species: MyString
+  planet: MyString
+  nationality: MyString
+  ancestry: MyString
+  occupation: MyString
+  orientation: 1
+  gender: MyString
+  personality_traits: 1

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  page_animation: 1
+  website_theme_1: 1
+  website_theme_2: 1
+  website_theme_3: 1
+  website_theme_4: 1
+
+two:
+  user: two
+  page_animation: 1
+  website_theme_1: 1
+  website_theme_2: 1
+  website_theme_3: 1
+  website_theme_4: 1
