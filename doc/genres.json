@@ -1,0 +1,13 @@
+[
+  { "name": "Science Fiction", "description": "Can be futuristic and describe wonderous technology beyond our current means." },
+  { "name": "Fantasy", "description": "Describes fantastical creatures who don't exist in reality." },
+  { "name": "Mystery", "description": "Crime or investigation is the main storyline." },
+  { "name": "Historical Fiction", "description": "Takes place in the past to describe fake events based on real events." },
+  { "name": "Comedy", "description": "Main point is to make the reader laugh." },
+  { "name": "Tragedy", "description": "Has a tragic ending for the hero." },
+  { "name": "Romance", "description": "Main plotline revolves around relationships and love." },
+  { "name": "Horror", "description": "Intends to terrify the reader." },
+  { "name": "Fable", "description": "A story with a moral." },
+  { "name": "Fan Fiction", "description": "Extends a work by a different author." },
+  { "name": "Myth", "description": "Main characters are divine beings; meant to explain how the universe came into existence." }
+]

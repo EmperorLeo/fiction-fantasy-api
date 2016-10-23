@@ -5,14 +5,13 @@ class CharacterArchetypesController < ApplicationController
 
   def show
     id = params[:id]
-    if !id
-      render json: { error: "Missing id" }, status: 400
-    elsif !id.is_number?
-      render json: { error: "Id is not a number" }, status: 400
+    valid_id = handle_id_param id
+    if !valid_id[:valid]
+      render json: valid_id[:json], status: 400
     else
       @archetype = CharacterArchetype.find_by_id(params[:id])
       if @archetype.nil?
-        render json: { error: "Id is invalid" }
+        render json: { error: "Not found" }, status: 404
       else
         render json: @archetype
       end

@@ -9,3 +9,7 @@
 CharacterArchetype.delete_all
 CharacterArchetype.reset_pk_sequence
 JSON.parse(open("#{Rails.root}/doc/character_archetypes.json").read).each { |arc| CharacterArchetype.create(arc) }
+
+Genre.delete_all
+Genre.reset_pk_sequence
+JSON.parse(open("#{Rails.root}/doc/genres.json").read).each { |genre| Genre.create(genre) }

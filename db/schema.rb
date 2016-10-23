@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161019030120) do
+ActiveRecord::Schema.define(version: 20161022032823) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -67,6 +67,8 @@ ActiveRecord::Schema.define(version: 20161019030120) do
     t.text     "content"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+    t.integer  "chapter_num"
+    t.index ["chapter_num", "story_template_id"], name: "index_story_chapters_on_chapter_num_and_story_template_id", unique: true, using: :btree
     t.index ["story_template_id"], name: "index_story_chapters_on_story_template_id", using: :btree
   end
 
@@ -102,6 +104,7 @@ ActiveRecord::Schema.define(version: 20161019030120) do
     t.integer  "genre_id"
     t.datetime "created_at",                    null: false
     t.datetime "updated_at",                    null: false
+    t.string   "title"
     t.index ["author_id"], name: "index_story_templates_on_author_id", using: :btree
     t.index ["genre_id"], name: "index_story_templates_on_genre_id", using: :btree
     t.index ["sequel_id"], name: "index_story_templates_on_sequel_id", using: :btree
